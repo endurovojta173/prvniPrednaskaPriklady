@@ -25,8 +25,14 @@ int main()
         }
         else if (choice == 2)
         {
-        //Objem koule
-
+        //Objem koule V = 4/3 π r³
+            std::cout<<"\nVybral jsi si objem koule\nZadej polomeer r: ";
+            double r=0;
+            double objem=0;
+            double pi = 3.14;
+            std::cin >> r;
+            objem = (4/3)*pi*r*r*r;
+            std::cout<<"\nObjem koule je: " <<objem;
         }
         else if (choice == 3)
         {
