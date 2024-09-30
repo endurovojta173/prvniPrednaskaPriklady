@@ -50,8 +50,15 @@ int main()
         else if (choice == 4)
         {
             //Vypocet vyrazu x + y
-            std::cout<<"\nVybral jsi si vypocet vyrazu x + y\nZadej x:"
-
+            std::cout<<"\nVybral jsi si vypocet vyrazu x + y\nZadej x:";
+            double x = 0;
+            double y = 0;
+            double vysledek = 0;
+            std::cin >> x;
+            std::cout<<"\nZadej y: ";
+            std::cin >> y;
+            vysledek = x+y;
+            std::cout<<"\nVysledek x+y: "<<vysledek;
         }
         std::cout << "\nVyber si jednu moznost:\n1 - Povrch Krychle\n2 - Objem koule"
                  "\n3 - Vypocet rychlosti(Draha, cas)\n4 - Vypocet vyrazu\n0 - Konec"
