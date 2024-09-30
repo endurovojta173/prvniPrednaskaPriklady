@@ -36,10 +36,21 @@ int main()
         }
         else if (choice == 3)
         {
-
+            //Vypocet rychlosti(Draha, cas)
+            std::cout<<"\nVybral jsi si Vypocet rychlosti\nZadej drahu v km: ";
+            double vzdalenost = 0;
+            double cas = 0;
+            double rychlost =0;
+            std::cin >> vzdalenost;
+            std::cout<<"\nZadej cas v h: ";
+            std::cin >> cas;
+            rychlost =vzdalenost/cas;
+            std::cout<<"\nRychlost je: "<<rychlost;
         }
         else if (choice == 4)
         {
+            //Vypocet vyrazu x + y
+            std::cout<<"\nVybral jsi si vypocet vyrazu x + y\nZadej x:"
 
         }
         std::cout << "\nVyber si jednu moznost:\n1 - Povrch Krychle\n2 - Objem koule"
